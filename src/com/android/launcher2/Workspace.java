@@ -812,9 +812,11 @@ public class Workspace extends ViewGroup implements DropTarget, DragSource, Drag
         toScreen = Math.min(toScreen, count - 1);
 
         for (int i = fromScreen; i <= toScreen; i++) {
-            final CellLayout layout = (CellLayout) getChildAt(i);
-            layout.setChildrenDrawnWithCacheEnabled(true);
-            layout.setChildrenDrawingCacheEnabled(true);
+        	if(i>=mCurrentScreen-1 || i<=mCurrentScreen+1){
+        		final CellLayout layout = (CellLayout) getChildAt(i);
+        		layout.setChildrenDrawnWithCacheEnabled(true);
+        		layout.setChildrenDrawingCacheEnabled(true);
+        	}
         }
     }
 
