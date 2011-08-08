@@ -17,19 +17,6 @@
 
 <resources>
     <string-array name="wallpapers" translatable="false">
-        <item>wallpaper_lake</item>
-        <item>wallpaper_sunset</item>
-        <item>wallpaper_beach</item>
-        <item>wallpaper_snow_leopard</item>
-        <item>wallpaper_path</item>
-        <item>wallpaper_sunrise</item>
-        <item>wallpaper_mountain</item>
-        <item>wallpaper_road</item>
-        <item>wallpaper_jellyfish</item>
         <item>wallpaper_zanzibar</item>
-        <item>wallpaper_blue</item>
-        <item>wallpaper_grey</item>
-        <item>wallpaper_green</item>
-        <item>wallpaper_pink</item>
     </string-array>
 </resources>
