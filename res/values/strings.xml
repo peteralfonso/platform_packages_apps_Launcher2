@@ -151,4 +151,6 @@
     <string name="default_browser_url" translatable="false">
         http://www.google.com/m?client=ms-{CID}&amp;source=android-home-hotseat</string>
 
+    <string name="drop_to_uninstall">Drop to uninstall</string>
+
 </resources>
