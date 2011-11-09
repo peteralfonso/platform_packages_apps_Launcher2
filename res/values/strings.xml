@@ -58,7 +58,7 @@
     <!-- Shortcuts -->
     <skip />
     <!-- Title of dialog box -->
-    <string name="menu_item_add_item">Add to Home screen</string>
+    <string name="menu_item_add_item">Add to home screen</string>
     <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all apps -->
     <string name="group_applications">Applications</string>
     <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all shortcuts -->
